@@ -18,15 +18,16 @@ public class TrocarTela : MonoBehaviour
         this.Painel.SetActive(false);
         this.Esconder.SetActive(true);
     }
-    
-    void Start()
+
+    public void NovaChanceFechar()
     {
+        StartCoroutine(NovaChance());
         
     }
 
-   
-    void Update()
+    IEnumerator NovaChance()
     {
-        
+        yield return new WaitForSeconds(1);
+        this.Painel.SetActive(false);
     }
 }

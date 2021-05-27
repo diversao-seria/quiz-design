@@ -9,7 +9,7 @@ public class Perguntas : MonoBehaviour
     public Image barra;
     public GameObject feedback;
     public GerenteDeCena gerenteDeCena;
-    
+    public bool novaChance;
 
 
     
@@ -42,12 +42,34 @@ public class Perguntas : MonoBehaviour
             
 
         }
+
+        if (novaChance == true)
+        {
+            if (barra.fillAmount < 1)
+            {
+                barra.fillAmount++;
+            }
+
+            else
+            {
+                feedback.SetActive(true);
+
+                StartCoroutine(NovaChance());
+               
+                novaChance = false;
+            }
+        }
        
     }
 
     public void Ativar()
     {
         ativado = true;
+    }
+    
+    public void AtivarNovaChance()
+    {
+        novaChance = true;
     }
 
     void UpdateCount()
@@ -65,6 +87,15 @@ public class Perguntas : MonoBehaviour
         barra.fillAmount=0;
         print("proxima questao");
 
+    }
+
+    IEnumerator NovaChance()
+    {
+        yield return new WaitForSeconds(1);
+        barra.fillAmount = 0;
+        feedback.SetActive(false);
+        print("nova chance");
+        
     }
 
 }
