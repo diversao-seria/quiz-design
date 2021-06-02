@@ -8,7 +8,7 @@ public class GerenteDeCena : MonoBehaviour
 {
     
     public int questao;
-    public int questoesCertas;
+    public float questoesCertas;
     public int questoesCertasSeguidas;
     public Text contador;
     public Text contadorQCertas;
@@ -19,19 +19,27 @@ public class GerenteDeCena : MonoBehaviour
     public Sprite fundoPadrao;
     public Sprite fundoFoguinho;
     public GameObject painelFinal;
-    //public bool errou;
+    public GameObject Gelo;
+    public Image BarraEstrelas;
     
 
     public void Update()
     {
+        if (Gelo.activeInHierarchy == true)
+        {
+            StartCoroutine(EsperaESome()); 
+        }
+
         if ( questoesCertasSeguidas >= 3)
         {
             FundoImg.sprite = fundoFoguinho;
         }
-        if (questao == 10)
+
+        if (questao == 11)
         {
             this.painelFinal.SetActive(true);
             UpdateCount();
+            BarraEstrelas.fillAmount = questoesCertas / 10;
         }
     }
 
@@ -78,6 +86,15 @@ public class GerenteDeCena : MonoBehaviour
     {
         yield return new WaitForSeconds(2);
         FundoImg.sprite = fundoPadrao;
+
+    }
+
+    IEnumerator EsperaESome()
+    {
+        yield return new WaitForSeconds(2);
+        this.Gelo.SetActive(false);
+       
+
 
     }
 }

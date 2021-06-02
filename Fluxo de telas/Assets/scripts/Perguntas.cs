@@ -15,7 +15,7 @@ public class Perguntas : MonoBehaviour
     
     public void Start()
     {
-        gerenteDeCena.questao = 1;
+      
         
     }
 

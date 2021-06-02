@@ -46,7 +46,7 @@ public class PoderVento : MonoBehaviour
     }
     IEnumerator EsperaEVolta()
     {
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(1/2);
         this.Sumir1.SetActive(true);
         this.Sumir2.SetActive(true);
         
