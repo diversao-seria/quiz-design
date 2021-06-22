@@ -337,6 +337,7 @@
 "Assets/scripts/GerenteDeCena.cs"
 "Assets/scripts/Perguntas.cs"
 "Assets/scripts/PoderVento.cs"
+"Assets/scripts/TrocaDeQuestoes.cs"
 "Assets/scripts/TrocarTela.cs"
 -langversion:8.0
 

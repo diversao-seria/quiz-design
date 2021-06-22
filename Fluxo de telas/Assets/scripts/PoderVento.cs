@@ -15,7 +15,7 @@ public class PoderVento : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        quest = 1;
+        quest = gerenteDeCena.questao;
     }
 
     // Update is called once per frame

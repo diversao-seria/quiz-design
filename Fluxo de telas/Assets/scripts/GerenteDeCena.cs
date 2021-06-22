@@ -25,7 +25,7 @@ public class GerenteDeCena : MonoBehaviour
 
     public void Update()
     {
-        if (Gelo.activeInHierarchy == true)
+        if (Gelo!=null && Gelo.activeInHierarchy == true)
         {
             StartCoroutine(EsperaESome()); 
         }
@@ -35,11 +35,11 @@ public class GerenteDeCena : MonoBehaviour
             FundoImg.sprite = fundoFoguinho;
         }
 
-        if (questao == 11)
+        if (questao == 6)
         {
             this.painelFinal.SetActive(true);
             UpdateCount();
-            BarraEstrelas.fillAmount = questoesCertas / 10;
+            BarraEstrelas.fillAmount = questoesCertas / 5;
         }
     }
 
