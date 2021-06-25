@@ -37,7 +37,7 @@ public class Perguntas : MonoBehaviour
 
                 StartCoroutine(EsperaEAvança());
 
-                ativado = false;
+                
           }      
             
 
@@ -45,9 +45,9 @@ public class Perguntas : MonoBehaviour
 
         if (novaChance == true)
         {
-            if (barra.fillAmount < 1)
+            if (this.barra.fillAmount < 1)
             {
-                barra.fillAmount++;
+                this.barra.fillAmount++;
             }
 
             else
@@ -91,11 +91,11 @@ public class Perguntas : MonoBehaviour
 
     IEnumerator NovaChance()
     {
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(2);
         barra.fillAmount = 0;
         feedback.SetActive(false);
         print("nova chance");
-        
+        ativado = false;
     }
 
 }

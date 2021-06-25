@@ -3367,18 +3367,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
-      - m_Target: {fileID: 270964275}
-        m_TargetAssemblyTypeName: PoderVento, Assembly-CSharp
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!114 &270964279
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5887,18 +5875,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
-      - m_Target: {fileID: 507374774}
-        m_TargetAssemblyTypeName: PoderVento, Assembly-CSharp
-        m_MethodName: Ventar
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!114 &507374776
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17709,18 +17685,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
-      - m_Target: {fileID: 1442133258}
-        m_TargetAssemblyTypeName: PoderVento, Assembly-CSharp
-        m_MethodName: Ventar
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!114 &1442133260
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22069,18 +22033,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
-      - m_Target: {fileID: 1727433925}
-        m_TargetAssemblyTypeName: PoderVento, Assembly-CSharp
-        m_MethodName: Ventar
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!114 &1727433927
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24313,6 +24265,7 @@ GameObject:
   - component: {fileID: 1957712737}
   - component: {fileID: 1957712739}
   - component: {fileID: 1957712738}
+  - component: {fileID: 1957712740}
   m_Layer: 5
   m_Name: FeedbackEF
   m_TagString: Untagged
@@ -24337,7 +24290,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 4.4420776, y: 110.72998}
-  m_SizeDelta: {x: 599.8499, y: 562.7879}
+  m_SizeDelta: {x: 5032.369, y: 4721.442}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1957712738
 MonoBehaviour:
@@ -24359,9 +24312,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 59e776c30c65c484ea06b4560a1ef866, type: 3}
+  m_Sprite: {fileID: 21300000, guid: cd4366f9af7283b478105f70b8514df6, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -24377,6 +24330,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1957712736}
   m_CullTransparentMesh: 1
+--- !u!95 &1957712740
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1957712736}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 60f6bfa27fdc6f646a4f6376300c8c0e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1962519733
 GameObject:
   m_ObjectHideFlags: 0
