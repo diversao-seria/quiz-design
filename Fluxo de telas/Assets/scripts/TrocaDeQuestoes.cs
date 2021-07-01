@@ -8,7 +8,8 @@ public class TrocaDeQuestoes : MonoBehaviour
     public TrocarTela trocarTela;
     public Text contador;
     public float tempo;
-    
+    public GameObject PainelQuestao;
+    public TempoQuestao tempoQuestao;
 
 
     // Start is called before the first frame update
@@ -31,9 +32,10 @@ public class TrocaDeQuestoes : MonoBehaviour
             }
             else
             {
-                this.trocarTela.PainelQuestao.SetActive(false);
+                this.PainelQuestao.SetActive(false);
                 this.trocarTela.iniciarC = false;
                 this.trocarTela.Esconder.SetActive(false);
+                this.tempoQuestao.iniciarCQ = true;
             }
         }
     }
@@ -41,5 +43,10 @@ public class TrocaDeQuestoes : MonoBehaviour
     void UpdateCount()
     {
         this.contador.text = tempo.ToString("F0");
+    }
+
+    public void pularC()
+    {
+        tempo = 0f;
     }
 }

@@ -5,9 +5,10 @@ using UnityEngine;
 public class TrocarTela : MonoBehaviour
 {
     public GameObject Painel;
-    public GameObject PainelQuestao;
+    //public GameObject PainelQuestao;
     public GameObject Esconder;
     public bool iniciarC;
+    
 
     public void abrirTela()
     {
@@ -31,11 +32,13 @@ public class TrocarTela : MonoBehaviour
     {
         StartCoroutine(ProximaQuestao());
         iniciarC = true;
+        
     }
     
     public void PrimeiraQ()
     {
         iniciarC = true;
+        
        
     }
 

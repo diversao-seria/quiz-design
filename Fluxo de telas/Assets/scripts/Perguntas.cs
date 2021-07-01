@@ -36,7 +36,7 @@ public class Perguntas : MonoBehaviour
                 feedback.SetActive(true);
 
                 StartCoroutine(EsperaEAvança());
-
+                ativado = false;
                 
           }      
             
@@ -82,7 +82,7 @@ public class Perguntas : MonoBehaviour
         yield return new WaitForSeconds(1);
 
         feedback.SetActive(false);
-        gerenteDeCena.questao++;
+        gerenteDeCena.questao+=1;
         UpdateCount();
         barra.fillAmount=0;
         print("proxima questao");
