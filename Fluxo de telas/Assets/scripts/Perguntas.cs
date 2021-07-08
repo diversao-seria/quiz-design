@@ -10,9 +10,9 @@ public class Perguntas : MonoBehaviour
     public GameObject feedback;
     public GerenteDeCena gerenteDeCena;
     public bool novaChance;
-
-
     
+
+
     public void Start()
     {
       
@@ -45,9 +45,9 @@ public class Perguntas : MonoBehaviour
 
         if (novaChance == true)
         {
-            if (this.barra.fillAmount < 1)
+            if (barra.fillAmount < 1)
             {
-                this.barra.fillAmount++;
+                barra.fillAmount++;
             }
 
             else
@@ -62,6 +62,15 @@ public class Perguntas : MonoBehaviour
        
     }
 
+    
+    
+
+
+
+
+
+
+
     public void Ativar()
     {
         ativado = true;
@@ -72,10 +81,15 @@ public class Perguntas : MonoBehaviour
         novaChance = true;
     }
 
+
     void UpdateCount()
     {
         gerenteDeCena.contador.text = gerenteDeCena.questao.ToString();
     }
+
+
+
+
 
     IEnumerator EsperaEAvança()
     {

@@ -3,6 +3,7 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - GerenteDeCena
     - Perguntas
+    - PoderFolha
     - PoderVento
     - TempoQuestao
     - TrocaDeQuestoes
@@ -196,6 +197,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 4878}
     - Class: 114
       Script: {instanceID: 4964}
+    - Class: 114
+      Script: {instanceID: 123270}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -779,7 +782,7 @@ ScriptsOnlyBuild:
     className: SkyboxChanger
   - hash:
       serializedVersion: 2
-      Hash: 52807f1c6887c3ceac7e2d9c3d6a1fb5
+      Hash: 4eecd35e971cf64294e9d4a2a2753bae
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PoderVento
@@ -819,6 +822,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.IK.Runtime.dll
     namespaceName: UnityEngine.U2D.IK
     className: FabrikSolver2D
+  - hash:
+      serializedVersion: 2
+      Hash: 388d6f663285ddcf9920bc728bf599e6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PoderFolha
   platform: 20
   scenePathNames:
   - Assets/Scenes/inicio.unity

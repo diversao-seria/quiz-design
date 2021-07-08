@@ -128,115 +128,139 @@ extern void U3CNovaChanceU3Ed__11_System_Collections_Generic_IEnumeratorU3CSyste
 extern void U3CNovaChanceU3Ed__11_System_Collections_IEnumerator_Reset_mDBA3A4F8B8A919D84BAE6E9F422131C6EA22251E (void);
 // 0x0000003A System.Object Perguntas/<NovaChance>d__11::System.Collections.IEnumerator.get_Current()
 extern void U3CNovaChanceU3Ed__11_System_Collections_IEnumerator_get_Current_m10C039BA1074FF1BDDA8A8CF976DF77EDF8AF4DD (void);
-// 0x0000003B System.Void PoderVento::Start()
+// 0x0000003B System.Void PoderFolha::Start()
+extern void PoderFolha_Start_m6A6F53F6BF40BD5FED8C902EC043B9FB432CC44F (void);
+// 0x0000003C System.Void PoderFolha::Update()
+extern void PoderFolha_Update_mD22C6DDA1E60AE67C5BF37634221F3A18FA0B0B9 (void);
+// 0x0000003D System.Void PoderFolha::AtivarFolha()
+extern void PoderFolha_AtivarFolha_m3E3B54F4AC7AF1B760848B1977E8CEDBD755BC01 (void);
+// 0x0000003E System.Void PoderFolha::DesativarFolha()
+extern void PoderFolha_DesativarFolha_m8BCDE741A53D67AA15053B62C089B2708D51FA02 (void);
+// 0x0000003F System.Collections.IEnumerator PoderFolha::EsperaESome()
+extern void PoderFolha_EsperaESome_m3B860C181F3743AEE80A3B7C801A2BE956F11867 (void);
+// 0x00000040 System.Void PoderFolha::.ctor()
+extern void PoderFolha__ctor_mC0ABD5EACE2758C523664C6450EE15A3F047D9C9 (void);
+// 0x00000041 System.Void PoderFolha/<EsperaESome>d__7::.ctor(System.Int32)
+extern void U3CEsperaESomeU3Ed__7__ctor_mF25005F8522FDD2DFD0A1EB0D4CBE173FC2C0BC9 (void);
+// 0x00000042 System.Void PoderFolha/<EsperaESome>d__7::System.IDisposable.Dispose()
+extern void U3CEsperaESomeU3Ed__7_System_IDisposable_Dispose_m2E712EEDA1BBD3336AC78522A417FC8E2BD1D160 (void);
+// 0x00000043 System.Boolean PoderFolha/<EsperaESome>d__7::MoveNext()
+extern void U3CEsperaESomeU3Ed__7_MoveNext_m5684AE05E8E472C7CB48B1EC9D8DE2EE4C96B4F1 (void);
+// 0x00000044 System.Object PoderFolha/<EsperaESome>d__7::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CEsperaESomeU3Ed__7_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m0B755AB7B5A57A88F0246DA758D107C8EC375C23 (void);
+// 0x00000045 System.Void PoderFolha/<EsperaESome>d__7::System.Collections.IEnumerator.Reset()
+extern void U3CEsperaESomeU3Ed__7_System_Collections_IEnumerator_Reset_mE169F7F9DD85A7C5B67636399A9B33BD8FDE4888 (void);
+// 0x00000046 System.Object PoderFolha/<EsperaESome>d__7::System.Collections.IEnumerator.get_Current()
+extern void U3CEsperaESomeU3Ed__7_System_Collections_IEnumerator_get_Current_m9CF118A3D865FE3B3F0B418CE5AAE0E1EF6E4D14 (void);
+// 0x00000047 System.Void PoderVento::Start()
 extern void PoderVento_Start_mE6498D2657076DD0C256A04E3771ED03C857FAF0 (void);
-// 0x0000003C System.Void PoderVento::Update()
+// 0x00000048 System.Void PoderVento::Update()
 extern void PoderVento_Update_m58EA038FC4C18EE88CAA6D1168F8C84680AA8675 (void);
-// 0x0000003D System.Void PoderVento::Ventar()
+// 0x00000049 System.Void PoderVento::Ventar()
 extern void PoderVento_Ventar_m68A4E2D85D6D03975634C6F5B659777D8AAFB038 (void);
-// 0x0000003E System.Collections.IEnumerator PoderVento::EsperaESome()
+// 0x0000004A System.Collections.IEnumerator PoderVento::EsperaESome()
 extern void PoderVento_EsperaESome_mA6BAA438630691D53F74FF42E9AF92D0F786BBAF (void);
-// 0x0000003F System.Collections.IEnumerator PoderVento::EsperaEVolta()
+// 0x0000004B System.Collections.IEnumerator PoderVento::EsperaEVolta()
 extern void PoderVento_EsperaEVolta_mC948663D0A5BC6E4D7904C1978BC0F3338E5A531 (void);
-// 0x00000040 System.Void PoderVento::.ctor()
+// 0x0000004C System.Void PoderVento::.ctor()
 extern void PoderVento__ctor_m9CE3E667C7FDF311483BE54134EE835C44391E61 (void);
-// 0x00000041 System.Void PoderVento/<EsperaESome>d__9::.ctor(System.Int32)
-extern void U3CEsperaESomeU3Ed__9__ctor_m12AEFA054D498F6898AA15682C1313085AE735E5 (void);
-// 0x00000042 System.Void PoderVento/<EsperaESome>d__9::System.IDisposable.Dispose()
-extern void U3CEsperaESomeU3Ed__9_System_IDisposable_Dispose_mB5F4E6FBA13E88EF123D3F4A6DF85E5659AEF899 (void);
-// 0x00000043 System.Boolean PoderVento/<EsperaESome>d__9::MoveNext()
-extern void U3CEsperaESomeU3Ed__9_MoveNext_m76A9A07D5789FCB2BB7D098DAF5A6F1F8391ACBF (void);
-// 0x00000044 System.Object PoderVento/<EsperaESome>d__9::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-extern void U3CEsperaESomeU3Ed__9_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m8A7132E7391AD215EC2C6AF5897E921E9C94D770 (void);
-// 0x00000045 System.Void PoderVento/<EsperaESome>d__9::System.Collections.IEnumerator.Reset()
-extern void U3CEsperaESomeU3Ed__9_System_Collections_IEnumerator_Reset_m5B588B11FF95067F77DCD67C86FE1B89C754857E (void);
-// 0x00000046 System.Object PoderVento/<EsperaESome>d__9::System.Collections.IEnumerator.get_Current()
-extern void U3CEsperaESomeU3Ed__9_System_Collections_IEnumerator_get_Current_m89E8F93B2698B7664F94849D82CBC213412DA928 (void);
-// 0x00000047 System.Void PoderVento/<EsperaEVolta>d__10::.ctor(System.Int32)
-extern void U3CEsperaEVoltaU3Ed__10__ctor_m20CBED2B327CC823621DA7EA74C75CF795039D0C (void);
-// 0x00000048 System.Void PoderVento/<EsperaEVolta>d__10::System.IDisposable.Dispose()
-extern void U3CEsperaEVoltaU3Ed__10_System_IDisposable_Dispose_mB62F7722F00DA41E9CF9979121C39D4056DD0F5B (void);
-// 0x00000049 System.Boolean PoderVento/<EsperaEVolta>d__10::MoveNext()
-extern void U3CEsperaEVoltaU3Ed__10_MoveNext_mC54B6DAF78292D178B9834797D470313AD625A7B (void);
-// 0x0000004A System.Object PoderVento/<EsperaEVolta>d__10::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-extern void U3CEsperaEVoltaU3Ed__10_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m3C981CC5DDE834963B0B2299F49F5196C041ACE2 (void);
-// 0x0000004B System.Void PoderVento/<EsperaEVolta>d__10::System.Collections.IEnumerator.Reset()
-extern void U3CEsperaEVoltaU3Ed__10_System_Collections_IEnumerator_Reset_m2944B2F6E199A00B32CEE3FBF113BADAB3473C82 (void);
-// 0x0000004C System.Object PoderVento/<EsperaEVolta>d__10::System.Collections.IEnumerator.get_Current()
-extern void U3CEsperaEVoltaU3Ed__10_System_Collections_IEnumerator_get_Current_m1A61E0D9329BBCA7239299585AA1C6BAA3D8C7D8 (void);
-// 0x0000004D System.Void TempoQuestao::Start()
+// 0x0000004D System.Void PoderVento/<EsperaESome>d__8::.ctor(System.Int32)
+extern void U3CEsperaESomeU3Ed__8__ctor_m7402457702C24B3F3D8D217F63C01A0128C0E9A2 (void);
+// 0x0000004E System.Void PoderVento/<EsperaESome>d__8::System.IDisposable.Dispose()
+extern void U3CEsperaESomeU3Ed__8_System_IDisposable_Dispose_m64442F7812E1E26832813A6D63AB570F9EC8196E (void);
+// 0x0000004F System.Boolean PoderVento/<EsperaESome>d__8::MoveNext()
+extern void U3CEsperaESomeU3Ed__8_MoveNext_m7C5BAD708413635B9A3EF08FC651A89222504EE6 (void);
+// 0x00000050 System.Object PoderVento/<EsperaESome>d__8::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CEsperaESomeU3Ed__8_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mD1168F2BBBD4C4B27A654F30F90FFEF7D9536920 (void);
+// 0x00000051 System.Void PoderVento/<EsperaESome>d__8::System.Collections.IEnumerator.Reset()
+extern void U3CEsperaESomeU3Ed__8_System_Collections_IEnumerator_Reset_m074AD3E7DB826E2D8369E728C19901585DD4C299 (void);
+// 0x00000052 System.Object PoderVento/<EsperaESome>d__8::System.Collections.IEnumerator.get_Current()
+extern void U3CEsperaESomeU3Ed__8_System_Collections_IEnumerator_get_Current_m1798A98E39D8AECD2436530C710AD2AD857326FD (void);
+// 0x00000053 System.Void PoderVento/<EsperaEVolta>d__9::.ctor(System.Int32)
+extern void U3CEsperaEVoltaU3Ed__9__ctor_mB97DD3544F84314DF3404B502D223C5DB5567C40 (void);
+// 0x00000054 System.Void PoderVento/<EsperaEVolta>d__9::System.IDisposable.Dispose()
+extern void U3CEsperaEVoltaU3Ed__9_System_IDisposable_Dispose_mE3FBCEF6AB8F45C0B7C150E7A4A6E8564102E6DB (void);
+// 0x00000055 System.Boolean PoderVento/<EsperaEVolta>d__9::MoveNext()
+extern void U3CEsperaEVoltaU3Ed__9_MoveNext_m5FB3D4D9E60EFD2782D54083BB6590592CE6C2CC (void);
+// 0x00000056 System.Object PoderVento/<EsperaEVolta>d__9::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CEsperaEVoltaU3Ed__9_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m526E1DB7B9C3089D74D595EFF61286C72A4CD255 (void);
+// 0x00000057 System.Void PoderVento/<EsperaEVolta>d__9::System.Collections.IEnumerator.Reset()
+extern void U3CEsperaEVoltaU3Ed__9_System_Collections_IEnumerator_Reset_m802E9FD6B74A2AC4CAD50664663C5DADDE57D8F4 (void);
+// 0x00000058 System.Object PoderVento/<EsperaEVolta>d__9::System.Collections.IEnumerator.get_Current()
+extern void U3CEsperaEVoltaU3Ed__9_System_Collections_IEnumerator_get_Current_m152DEB5AE94A8D21A51578785E1972C5C707B4D0 (void);
+// 0x00000059 System.Void TempoQuestao::Start()
 extern void TempoQuestao_Start_m2C2007896ED0A163204C14BA22F8993E47C48669 (void);
-// 0x0000004E System.Void TempoQuestao::Update()
+// 0x0000005A System.Void TempoQuestao::Update()
 extern void TempoQuestao_Update_m09504D3E9FE479033EB5298FA5AC3EAD3BDE4058 (void);
-// 0x0000004F System.Void TempoQuestao::UpdateCount()
+// 0x0000005B System.Void TempoQuestao::UpdateCount()
 extern void TempoQuestao_UpdateCount_m7C9C458FE5223AE1D2E23DB05B88808EAA5FF37F (void);
-// 0x00000050 System.Collections.IEnumerator TempoQuestao::Congelar()
+// 0x0000005C System.Collections.IEnumerator TempoQuestao::Congelar()
 extern void TempoQuestao_Congelar_m56F52316DD6B74466DC835CBF1B7F79E2258F53F (void);
-// 0x00000051 System.Void TempoQuestao::.ctor()
+// 0x0000005D System.Void TempoQuestao::.ctor()
 extern void TempoQuestao__ctor_m13B97BA909556BB67C793F0C653E5C650C74455D (void);
-// 0x00000052 System.Void TempoQuestao/<Congelar>d__12::.ctor(System.Int32)
+// 0x0000005E System.Void TempoQuestao/<Congelar>d__12::.ctor(System.Int32)
 extern void U3CCongelarU3Ed__12__ctor_mE7FD2090548ECD806C918ECDE23DD6D860B20164 (void);
-// 0x00000053 System.Void TempoQuestao/<Congelar>d__12::System.IDisposable.Dispose()
+// 0x0000005F System.Void TempoQuestao/<Congelar>d__12::System.IDisposable.Dispose()
 extern void U3CCongelarU3Ed__12_System_IDisposable_Dispose_mFF656398889A68FA44E6A4F798C29E4142F10515 (void);
-// 0x00000054 System.Boolean TempoQuestao/<Congelar>d__12::MoveNext()
+// 0x00000060 System.Boolean TempoQuestao/<Congelar>d__12::MoveNext()
 extern void U3CCongelarU3Ed__12_MoveNext_m37E64FF534946354DAA25FD6AFFD6BF11F436B41 (void);
-// 0x00000055 System.Object TempoQuestao/<Congelar>d__12::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x00000061 System.Object TempoQuestao/<Congelar>d__12::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CCongelarU3Ed__12_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mE8CD5184FA2B0B6DEDF3E98B7FFFEC66950EEE84 (void);
-// 0x00000056 System.Void TempoQuestao/<Congelar>d__12::System.Collections.IEnumerator.Reset()
+// 0x00000062 System.Void TempoQuestao/<Congelar>d__12::System.Collections.IEnumerator.Reset()
 extern void U3CCongelarU3Ed__12_System_Collections_IEnumerator_Reset_mCB2458AF9703C460D61C9FC1F54E9D262DA8D62F (void);
-// 0x00000057 System.Object TempoQuestao/<Congelar>d__12::System.Collections.IEnumerator.get_Current()
+// 0x00000063 System.Object TempoQuestao/<Congelar>d__12::System.Collections.IEnumerator.get_Current()
 extern void U3CCongelarU3Ed__12_System_Collections_IEnumerator_get_Current_m926E10B42F27AC34763D6FE295FF4878E1A4BFCE (void);
-// 0x00000058 System.Void TrocaDeQuestoes::Start()
+// 0x00000064 System.Void TrocaDeQuestoes::Start()
 extern void TrocaDeQuestoes_Start_m8C2C5308B577BFB50C1FBCC7F1B03A806998738C (void);
-// 0x00000059 System.Void TrocaDeQuestoes::Update()
+// 0x00000065 System.Void TrocaDeQuestoes::Update()
 extern void TrocaDeQuestoes_Update_m5CB84B39B4BA99520BAE01AF38E42D94A4541331 (void);
-// 0x0000005A System.Void TrocaDeQuestoes::UpdateCount()
+// 0x00000066 System.Void TrocaDeQuestoes::UpdateCount()
 extern void TrocaDeQuestoes_UpdateCount_m701A8918A2F556A60B15ACA887E3C106AE11E3FD (void);
-// 0x0000005B System.Void TrocaDeQuestoes::pularC()
+// 0x00000067 System.Void TrocaDeQuestoes::pularC()
 extern void TrocaDeQuestoes_pularC_m06CA82F0612EF17CFAA1A8BE812B167050ABA959 (void);
-// 0x0000005C System.Void TrocaDeQuestoes::.ctor()
+// 0x00000068 System.Void TrocaDeQuestoes::.ctor()
 extern void TrocaDeQuestoes__ctor_m961092BC2ADA3E7C470DCC2B81A7E4E1E046673A (void);
-// 0x0000005D System.Void TrocarTela::abrirTela()
+// 0x00000069 System.Void TrocarTela::abrirTela()
 extern void TrocarTela_abrirTela_mE2E0C6279A13FEA96D30EC5F174DB76F462B2BDE (void);
-// 0x0000005E System.Void TrocarTela::fecharTela()
+// 0x0000006A System.Void TrocarTela::fecharTela()
 extern void TrocarTela_fecharTela_m6708247E9161EEF1F9BBAF301D845C14C1E2EAE1 (void);
-// 0x0000005F System.Void TrocarTela::NovaChanceFechar()
+// 0x0000006B System.Void TrocarTela::NovaChanceFechar()
 extern void TrocarTela_NovaChanceFechar_m506EB0DBD5AC719DB9824684E7E3BECC04B85FE5 (void);
-// 0x00000060 System.Void TrocarTela::NextQ()
+// 0x0000006C System.Void TrocarTela::NextQ()
 extern void TrocarTela_NextQ_mB301AF5FDE8776EB98C698AB693BBB5CE76FEF72 (void);
-// 0x00000061 System.Void TrocarTela::PrimeiraQ()
+// 0x0000006D System.Void TrocarTela::PrimeiraQ()
 extern void TrocarTela_PrimeiraQ_mF5451F965221ECF226BE66D20F5047E98DDD648F (void);
-// 0x00000062 System.Collections.IEnumerator TrocarTela::NovaChance()
+// 0x0000006E System.Collections.IEnumerator TrocarTela::NovaChance()
 extern void TrocarTela_NovaChance_mC916284D69CBD37ED99E54F537AA38EFAA762FC0 (void);
-// 0x00000063 System.Collections.IEnumerator TrocarTela::ProximaQuestao()
+// 0x0000006F System.Collections.IEnumerator TrocarTela::ProximaQuestao()
 extern void TrocarTela_ProximaQuestao_m4A335C292DB73F196F785111E9661BECC893FDE0 (void);
-// 0x00000064 System.Void TrocarTela::.ctor()
+// 0x00000070 System.Void TrocarTela::.ctor()
 extern void TrocarTela__ctor_m1A103F04361D3F74654709957BBF49C04E401D89 (void);
-// 0x00000065 System.Void TrocarTela/<NovaChance>d__8::.ctor(System.Int32)
+// 0x00000071 System.Void TrocarTela/<NovaChance>d__8::.ctor(System.Int32)
 extern void U3CNovaChanceU3Ed__8__ctor_m33FFCD099C39E4661DBF3B0FA5EC32745DD07E82 (void);
-// 0x00000066 System.Void TrocarTela/<NovaChance>d__8::System.IDisposable.Dispose()
+// 0x00000072 System.Void TrocarTela/<NovaChance>d__8::System.IDisposable.Dispose()
 extern void U3CNovaChanceU3Ed__8_System_IDisposable_Dispose_mBBD34FC6E69632051DE74C6750A80F0E2954B241 (void);
-// 0x00000067 System.Boolean TrocarTela/<NovaChance>d__8::MoveNext()
+// 0x00000073 System.Boolean TrocarTela/<NovaChance>d__8::MoveNext()
 extern void U3CNovaChanceU3Ed__8_MoveNext_m0582E2C9C59AE17E94A0D035EAD66DF262DF9BB1 (void);
-// 0x00000068 System.Object TrocarTela/<NovaChance>d__8::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x00000074 System.Object TrocarTela/<NovaChance>d__8::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CNovaChanceU3Ed__8_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mEFFCF5BAA2AB189ADF99521094242D3742196EDB (void);
-// 0x00000069 System.Void TrocarTela/<NovaChance>d__8::System.Collections.IEnumerator.Reset()
+// 0x00000075 System.Void TrocarTela/<NovaChance>d__8::System.Collections.IEnumerator.Reset()
 extern void U3CNovaChanceU3Ed__8_System_Collections_IEnumerator_Reset_m3A2B798B357B3A028EC9E000089FA20372D3DF95 (void);
-// 0x0000006A System.Object TrocarTela/<NovaChance>d__8::System.Collections.IEnumerator.get_Current()
+// 0x00000076 System.Object TrocarTela/<NovaChance>d__8::System.Collections.IEnumerator.get_Current()
 extern void U3CNovaChanceU3Ed__8_System_Collections_IEnumerator_get_Current_mFCFF4E5F017E1D60B42553AB2A13C825221365A6 (void);
-// 0x0000006B System.Void TrocarTela/<ProximaQuestao>d__9::.ctor(System.Int32)
+// 0x00000077 System.Void TrocarTela/<ProximaQuestao>d__9::.ctor(System.Int32)
 extern void U3CProximaQuestaoU3Ed__9__ctor_m03AC1FA378A2176D91C750A3774AB7EF1225910E (void);
-// 0x0000006C System.Void TrocarTela/<ProximaQuestao>d__9::System.IDisposable.Dispose()
+// 0x00000078 System.Void TrocarTela/<ProximaQuestao>d__9::System.IDisposable.Dispose()
 extern void U3CProximaQuestaoU3Ed__9_System_IDisposable_Dispose_mC97A3DC4FE733CE93B285DC943E133D432C52012 (void);
-// 0x0000006D System.Boolean TrocarTela/<ProximaQuestao>d__9::MoveNext()
+// 0x00000079 System.Boolean TrocarTela/<ProximaQuestao>d__9::MoveNext()
 extern void U3CProximaQuestaoU3Ed__9_MoveNext_mB3B482D5B75B416A7C245EC6361E71F62F96BD9B (void);
-// 0x0000006E System.Object TrocarTela/<ProximaQuestao>d__9::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x0000007A System.Object TrocarTela/<ProximaQuestao>d__9::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CProximaQuestaoU3Ed__9_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m58B63A7643A642AC012E87031B93B90EBC86447A (void);
-// 0x0000006F System.Void TrocarTela/<ProximaQuestao>d__9::System.Collections.IEnumerator.Reset()
+// 0x0000007B System.Void TrocarTela/<ProximaQuestao>d__9::System.Collections.IEnumerator.Reset()
 extern void U3CProximaQuestaoU3Ed__9_System_Collections_IEnumerator_Reset_mAE0ED2D603005C8D72B8D22B01BDDE2645986A50 (void);
-// 0x00000070 System.Object TrocarTela/<ProximaQuestao>d__9::System.Collections.IEnumerator.get_Current()
+// 0x0000007C System.Object TrocarTela/<ProximaQuestao>d__9::System.Collections.IEnumerator.get_Current()
 extern void U3CProximaQuestaoU3Ed__9_System_Collections_IEnumerator_get_Current_m44B157F076C8ECD1B211490F5C8E4E1CF98ED496 (void);
-static Il2CppMethodPointer s_methodPointers[112] = 
+static Il2CppMethodPointer s_methodPointers[124] = 
 {
 	FPSWalkerEnhanced_Start_m252E88E0B24056C673BB14447377688734E7B8E2,
 	FPSWalkerEnhanced_FixedUpdate_m1473D52C9F5E268E25165FBE5F518E164748B3B1,
@@ -296,24 +320,36 @@ static Il2CppMethodPointer s_methodPointers[112] =
 	U3CNovaChanceU3Ed__11_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m6CF0BA10483C2560C858522F4FAC92FED7FB1747,
 	U3CNovaChanceU3Ed__11_System_Collections_IEnumerator_Reset_mDBA3A4F8B8A919D84BAE6E9F422131C6EA22251E,
 	U3CNovaChanceU3Ed__11_System_Collections_IEnumerator_get_Current_m10C039BA1074FF1BDDA8A8CF976DF77EDF8AF4DD,
+	PoderFolha_Start_m6A6F53F6BF40BD5FED8C902EC043B9FB432CC44F,
+	PoderFolha_Update_mD22C6DDA1E60AE67C5BF37634221F3A18FA0B0B9,
+	PoderFolha_AtivarFolha_m3E3B54F4AC7AF1B760848B1977E8CEDBD755BC01,
+	PoderFolha_DesativarFolha_m8BCDE741A53D67AA15053B62C089B2708D51FA02,
+	PoderFolha_EsperaESome_m3B860C181F3743AEE80A3B7C801A2BE956F11867,
+	PoderFolha__ctor_mC0ABD5EACE2758C523664C6450EE15A3F047D9C9,
+	U3CEsperaESomeU3Ed__7__ctor_mF25005F8522FDD2DFD0A1EB0D4CBE173FC2C0BC9,
+	U3CEsperaESomeU3Ed__7_System_IDisposable_Dispose_m2E712EEDA1BBD3336AC78522A417FC8E2BD1D160,
+	U3CEsperaESomeU3Ed__7_MoveNext_m5684AE05E8E472C7CB48B1EC9D8DE2EE4C96B4F1,
+	U3CEsperaESomeU3Ed__7_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m0B755AB7B5A57A88F0246DA758D107C8EC375C23,
+	U3CEsperaESomeU3Ed__7_System_Collections_IEnumerator_Reset_mE169F7F9DD85A7C5B67636399A9B33BD8FDE4888,
+	U3CEsperaESomeU3Ed__7_System_Collections_IEnumerator_get_Current_m9CF118A3D865FE3B3F0B418CE5AAE0E1EF6E4D14,
 	PoderVento_Start_mE6498D2657076DD0C256A04E3771ED03C857FAF0,
 	PoderVento_Update_m58EA038FC4C18EE88CAA6D1168F8C84680AA8675,
 	PoderVento_Ventar_m68A4E2D85D6D03975634C6F5B659777D8AAFB038,
 	PoderVento_EsperaESome_mA6BAA438630691D53F74FF42E9AF92D0F786BBAF,
 	PoderVento_EsperaEVolta_mC948663D0A5BC6E4D7904C1978BC0F3338E5A531,
 	PoderVento__ctor_m9CE3E667C7FDF311483BE54134EE835C44391E61,
-	U3CEsperaESomeU3Ed__9__ctor_m12AEFA054D498F6898AA15682C1313085AE735E5,
-	U3CEsperaESomeU3Ed__9_System_IDisposable_Dispose_mB5F4E6FBA13E88EF123D3F4A6DF85E5659AEF899,
-	U3CEsperaESomeU3Ed__9_MoveNext_m76A9A07D5789FCB2BB7D098DAF5A6F1F8391ACBF,
-	U3CEsperaESomeU3Ed__9_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m8A7132E7391AD215EC2C6AF5897E921E9C94D770,
-	U3CEsperaESomeU3Ed__9_System_Collections_IEnumerator_Reset_m5B588B11FF95067F77DCD67C86FE1B89C754857E,
-	U3CEsperaESomeU3Ed__9_System_Collections_IEnumerator_get_Current_m89E8F93B2698B7664F94849D82CBC213412DA928,
-	U3CEsperaEVoltaU3Ed__10__ctor_m20CBED2B327CC823621DA7EA74C75CF795039D0C,
-	U3CEsperaEVoltaU3Ed__10_System_IDisposable_Dispose_mB62F7722F00DA41E9CF9979121C39D4056DD0F5B,
-	U3CEsperaEVoltaU3Ed__10_MoveNext_mC54B6DAF78292D178B9834797D470313AD625A7B,
-	U3CEsperaEVoltaU3Ed__10_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m3C981CC5DDE834963B0B2299F49F5196C041ACE2,
-	U3CEsperaEVoltaU3Ed__10_System_Collections_IEnumerator_Reset_m2944B2F6E199A00B32CEE3FBF113BADAB3473C82,
-	U3CEsperaEVoltaU3Ed__10_System_Collections_IEnumerator_get_Current_m1A61E0D9329BBCA7239299585AA1C6BAA3D8C7D8,
+	U3CEsperaESomeU3Ed__8__ctor_m7402457702C24B3F3D8D217F63C01A0128C0E9A2,
+	U3CEsperaESomeU3Ed__8_System_IDisposable_Dispose_m64442F7812E1E26832813A6D63AB570F9EC8196E,
+	U3CEsperaESomeU3Ed__8_MoveNext_m7C5BAD708413635B9A3EF08FC651A89222504EE6,
+	U3CEsperaESomeU3Ed__8_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mD1168F2BBBD4C4B27A654F30F90FFEF7D9536920,
+	U3CEsperaESomeU3Ed__8_System_Collections_IEnumerator_Reset_m074AD3E7DB826E2D8369E728C19901585DD4C299,
+	U3CEsperaESomeU3Ed__8_System_Collections_IEnumerator_get_Current_m1798A98E39D8AECD2436530C710AD2AD857326FD,
+	U3CEsperaEVoltaU3Ed__9__ctor_mB97DD3544F84314DF3404B502D223C5DB5567C40,
+	U3CEsperaEVoltaU3Ed__9_System_IDisposable_Dispose_mE3FBCEF6AB8F45C0B7C150E7A4A6E8564102E6DB,
+	U3CEsperaEVoltaU3Ed__9_MoveNext_m5FB3D4D9E60EFD2782D54083BB6590592CE6C2CC,
+	U3CEsperaEVoltaU3Ed__9_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m526E1DB7B9C3089D74D595EFF61286C72A4CD255,
+	U3CEsperaEVoltaU3Ed__9_System_Collections_IEnumerator_Reset_m802E9FD6B74A2AC4CAD50664663C5DADDE57D8F4,
+	U3CEsperaEVoltaU3Ed__9_System_Collections_IEnumerator_get_Current_m152DEB5AE94A8D21A51578785E1972C5C707B4D0,
 	TempoQuestao_Start_m2C2007896ED0A163204C14BA22F8993E47C48669,
 	TempoQuestao_Update_m09504D3E9FE479033EB5298FA5AC3EAD3BDE4058,
 	TempoQuestao_UpdateCount_m7C9C458FE5223AE1D2E23DB05B88808EAA5FF37F,
@@ -351,7 +387,7 @@ static Il2CppMethodPointer s_methodPointers[112] =
 	U3CProximaQuestaoU3Ed__9_System_Collections_IEnumerator_Reset_mAE0ED2D603005C8D72B8D22B01BDDE2645986A50,
 	U3CProximaQuestaoU3Ed__9_System_Collections_IEnumerator_get_Current_m44B157F076C8ECD1B211490F5C8E4E1CF98ED496,
 };
-static const int32_t s_InvokerIndices[112] = 
+static const int32_t s_InvokerIndices[124] = 
 {
 	1718,
 	1718,
@@ -405,6 +441,18 @@ static const int32_t s_InvokerIndices[112] =
 	1663,
 	1718,
 	1663,
+	1387,
+	1718,
+	1686,
+	1663,
+	1718,
+	1663,
+	1718,
+	1718,
+	1718,
+	1718,
+	1663,
+	1718,
 	1387,
 	1718,
 	1686,
@@ -471,7 +519,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	112,
+	124,
 	s_methodPointers,
 	0,
 	NULL,
