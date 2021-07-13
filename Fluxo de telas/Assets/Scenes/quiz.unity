@@ -11032,8 +11032,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Ol\xE1, vamos dar inicio ao tutorial. \nVoc\xEA pode pular ele a qualquer
-    momento, caso deseje...\n\nClique nas setas para proseguir."
+  m_text: "Ol\xE1, vamos iniciar o tutorial. \nVoc\xEA pode pular ele a qualquer
+    momento, caso deseje...\nClique nas setas para prosseguir."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -12349,7 +12349,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Ap\xF3s usar esse poder, o tempo da quest\xE3o ir\xE1 congelar por alguns
-    segundos"
+    segundos."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -22270,7 +22270,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Ao usar este poder duas alternativas incorretas s\xE3o eliminadas."
+  m_text: "Ao usar este poder, duas alternativas incorretas s\xE3o eliminadas."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -29752,7 +29752,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Colocando seus ovos em comida que depois \xE9 ingerida"
+  m_text: "Colocando seus ovos em comida, que depois \xE9 ingerida"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -38370,7 +38370,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Colocando seus ovos em \xE1gua que depois \xE9 bebida"
+  m_text: "Colocando seus ovos em \xE1gua, que depois \xE9 bebida"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
